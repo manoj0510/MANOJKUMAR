@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include<conio.h>
+
+void main()
+{
+    int a,b,c;
+    clrscr;
+    printf("enter 3 numbers to check greatest number \n");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    scanf("%d",&c);
+    if(a>b&&a>c)
+    {
+        printf("%d is the largest number",a);
+        
+    }
+    else if(b>c)
+    {
+        printf("%d is the largest number",b);
+    }
+     else
+    {
+        printf("%d is the largest number",c);
+    }
+    getch();
+}
